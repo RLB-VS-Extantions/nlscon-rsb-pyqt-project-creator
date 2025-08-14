@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug on NLScon-RSB",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "DISPLAY": ":0.0",
+                "XAUTHORITY": "/home/pi/.Xauthority"
+            }
+        }
+    ]
+}
